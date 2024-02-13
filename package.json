@@ -1,22 +1,12 @@
 {
   "version": "0.0.0",
-  "name": "@kmamal/find-up",
-  "description": "find-up",
+  "name": "@kmamal/block-size",
+  "description": "block-size",
   "repository": {
     "type": "git",
-    "url": "git@github.com:kmamal/find-up.git"
+    "url": "git@github.com:kmamal/block-size.git"
   },
   "license": "MIT",
   "main": "./src/index.js",
-  "exports": "./src/index.js",
-  "scripts": {
-    "test": "npx @kmamal/testing",
-    "update-exports": "node ./scripts/update-exports.mjs"
-  },
-  "dependencies": {
-    "@kmamal/util": "^0.1.15"
-  },
-  "devDependencies": {
-    "@kmamal/testing": "^0.0.28"
-  }
+  "exports": "./src/index.js"
 }
